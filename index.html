@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Last Letter Finder</title>
+</head>
+
+<body>
+  <div class="card">
+
+    <div class="header">
+      <span class="badge">Exercício 08</span>
+      <h1>Last Letter Finder</h1>
+      <p class="subtitle">
+        Obtém a última letra de qualquer palavra usando
+        <code style="color:var(--accent)">word.length - 1</code> — sem hardcode.
+      </p>
+    </div>
+
+    <hr />
+
+    <div class="input-group">
+      <label>Digite uma palavra</label>
+      <div class="input-row">
+        <input type="text" id="wordInput" placeholder="ex: JavaScript" maxlength="40" autocomplete="off" spellcheck="false" />
+        <button id="runBtn">Executar</button>
+      </div>
+    </div>
+
+    <div class="result">
+      <div>
+        <div class="result-label">Última letra</div>
+        <div class="result-meta" id="resultMeta">—</div>
+      </div>
+      <div class="result-value" id="resultChar">—</div>
+    </div>
+
+    <div class="console-box" id="consoleBox">
+      <div class="log-line log-comment">// saída do console aparece aqui</div>
+    </div>
+
+    <div class="footer">word[ word.length - 1 ]</div>
+
+  </div>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
